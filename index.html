@@ -1,36 +1,54 @@
 <html>
 
 <head>
-    <title> Going Online
+    <title> Theatre
     </title>
     <style type="text/css">
         Body {
-            background-image: url(graphics/indexbkgnd.jpeg);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background0size: cover;
+            background-color: #FFD8CC;
+            font-family: Arial, Helvetica, sans-serif;
+            font: Helvetica;
+            padding: 0;
+            margin: 0;
         }
         
-        #welcome {
-            font-family: georgia, "Times New Roman", Times, serif;
-            font-size: 36px;
-            color: #FFF;
-            width: 40pxl;
-            margin-top: 40%;
-            margin-right: 30%;
-            margin-bottom: 40%;
-            margin-left: 30%;
+        .theatre {
+            font-size: 3 em;
+            color: #4C4C4C;
+            width: 100%;
+        }
+        
+        .columns {
+            float: left;
+            width: 50%;
+            padding: 5%;
+            height: 300px;
+            text-align: justify;
+        }
+        
+        .row {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .columns img {
+            text-align: center;
         }
     </style>
 </head>
 
 <body>
-    <div id="welcome">
-        <h4> CONTENT HERE. </h4>
+    <img src="graphics/banner_image.jpg" width="100%" />
+    <div class="row">
+        <div class="columns">
+            <img src="graphics/masks.png" width="50%" /> <br> Theatre or theater is a collaborative form of fine art that uses live performers, typically actors or actresses, to present the experience of a real or imagined event before a live audience
+            in a specific place, often a stage. The performers may communicate this experience to the audience through combinations of gesture, speech, song, music, and dance. </div>
+        <div class="columns">
+            <img src="graphics/masks.png" width="50%" /> <br>The city-state of Athens is where western theatre originated. It was part of a broader culture of theatricality and performance in classical Greece that included festivals, religious rituals,
+            politics, law, athletics and gymnastics, music, poetry, weddings, funerals, and symposia. Participation in the city-state's many festivals—and mandatory attendance at the City Dionysia as an audience member (or even as a participant in the
+            theatrical productions) in particular—was an important part of citizenship.
+        </div>
     </div>
 </body>
 
